@@ -3,7 +3,7 @@ from numpy.core.fromnumeric import mean
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from net import Net
+from simple_net import Net
 from load_data import ImageDataset
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
